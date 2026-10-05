@@ -1,0 +1,159 @@
+{
+  "runtime": {
+    "implementation": "CPython",
+    "python": "3.13.7",
+    "ucd": "15.1.0",
+    "platform": "Windows"
+  },
+  "tests": {
+    "normal": 25,
+    "optimized": 25,
+    "exit": 0
+  },
+  "bandit": {
+    "version": "1.9.4",
+    "runtime_demo_loc": 309,
+    "findings": 0,
+    "suppressions": 0
+  },
+  "mutations": {
+    "results": [
+      {
+        "mutant": "lower-instead-of-full-fold",
+        "test": "test_independent_full_casefold_mappings",
+        "exit": 1,
+        "assertion_detected": true
+      },
+      {
+        "mutant": "canonical-instead-of-compatibility",
+        "test": "test_independent_normalization_columns",
+        "exit": 1,
+        "assertion_detected": true
+      },
+      {
+        "mutant": "duplicate-count-as-induced-collision",
+        "test": "test_duplicates_alone_are_not_induced_collisions",
+        "exit": 1,
+        "assertion_detected": true
+      },
+      {
+        "mutant": "omit-last-normalization",
+        "test": "test_final_normalization_recomposes_casefold",
+        "exit": 1,
+        "assertion_detected": true
+      }
+    ],
+    "source_sha256": "4aa05370426c21f90cb290228d7b21d609cd7f2456537df89901897c3e880620",
+    "source_unchanged": true
+  },
+  "repository_checks": {
+    "workflow_files": [
+      "ci.yml",
+      "codeql.yml"
+    ],
+    "tracked_files": 37,
+    "history_blobs": 21,
+    "targeted_current_signature_hits": 0,
+    "targeted_history_signature_hits": 0,
+    "limit": "Targeted signatures only, not a dedicated secret scanner or proof of absence."
+  },
+  "files": {
+    ".github/dependabot.yml": {
+      "bytes": 193,
+      "sha256": "efe35b04741cc513b7fecc935d603508aff876b23c82979b0a3300f299c3ea37"
+    },
+    ".github/workflows/ci.yml": {
+      "bytes": 775,
+      "sha256": "c29a2275b9a0db5ef1e0b48fc7765dabb651dce35838a18d2f9160c1c9e9fdef"
+    },
+    ".github/workflows/codeql.yml": {
+      "bytes": 703,
+      "sha256": "8eddb5644339d1aeb92f734aa50747649cc7d5101562f812deeaa693258a7c02"
+    },
+    "fixtures/oracles.json": {
+      "bytes": 5500,
+      "sha256": "c0e2fa084011a735b4ce52f7def36f07f209ad1565f189e7778110d553dffd99"
+    },
+    "fixtures/provenance.json": {
+      "bytes": 412,
+      "sha256": "ed804332de7ceb034080c76782a377168b857eab93d1c76ac4050705a4300fdc"
+    },
+    "fixtures/README.md": {
+      "bytes": 2034,
+      "sha256": "8fd278383702f9c31fee18ac0aabeb8321dae58029addea2f14a488f55bff264"
+    },
+    "fixtures/unicode-excerpts.txt": {
+      "bytes": 1504,
+      "sha256": "803b9ee58b7605cadb04c4a97581c19b15b5f86872789f1152f2a7ee1765ac65"
+    },
+    "LICENSE": {
+      "bytes": 1071,
+      "sha256": "c6862fa5dda33ca6e72e595855c674528df187d1feec4daf82846eac785c47eb"
+    },
+    "LICENSES/UNICODE.txt": {
+      "bytes": 2033,
+      "sha256": "fe5c62b543e287981db198f2acfa0ca732d12591a1024536dc8fd85dacd77104"
+    },
+    "NOTICE.md": {
+      "bytes": 1746,
+      "sha256": "ef0fedde116aa8aae33263a4821d09219472947b1e4e57622a107e1e167f563d"
+    },
+    "requirements-dev.txt": {
+      "bytes": 250,
+      "sha256": "8e8c34911d18f0ffd0e6a7438f0826e1e1b3489377b22ab08f5033c3e88abf3a"
+    },
+    "samples/demo.json": {
+      "bytes": 17115,
+      "sha256": "33dabd4943ed57f19e7640fe8f05c03b25f44164f6bf869ba8aa754480b9a57f"
+    },
+    "samples/mixed-report.json": {
+      "bytes": 2709,
+      "sha256": "a0ae6e4def3632c18e6960af645b0a2b341b0de7f3f3d3a02f6cee64317724fa"
+    },
+    "samples/mixed.json": {
+      "bytes": 175,
+      "sha256": "b4b58d83a5087a1d86a290878a979f26517290ee9f9b35b01e9619c79ceccae5"
+    },
+    "scripts/__init__.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "scripts/demo_reports.py": {
+      "bytes": 2240,
+      "sha256": "a6c597cbbfcafa3f6891cafc1aaae3b7e6c260cff0a6acbdb7f05510edc2199b"
+    },
+    "tests/__init__.py": {
+      "bytes": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "tests/test_cli.py": {
+      "bytes": 7315,
+      "sha256": "8a8c7ae5936bf2e46653a5dc7ebfb36eceb05efce1e7b29a3fc2d67e22200856"
+    },
+    "tests/test_demo.py": {
+      "bytes": 1934,
+      "sha256": "b43755559b3ff0a3848df1b8ea43521df9781a23a6f08a64763ec429af22cd89"
+    },
+    "tests/test_model.py": {
+      "bytes": 9782,
+      "sha256": "c514cbe3cca4f6ccf88dd2cdf80de0e51f252a572a7e911b69dc7792c13c364c"
+    },
+    "unicode_lab/__init__.py": {
+      "bytes": 134,
+      "sha256": "13e5381a3f7f1190f15e20beaabbe8088c4c8f7e7ed03bf1b29e784d9e2a1a0a"
+    },
+    "unicode_lab/__main__.py": {
+      "bytes": 2668,
+      "sha256": "c4fbb5fb62206c12c9913eabf2708e2c03dbb63af331ed01454f23ee00b1644a"
+    },
+    "unicode_lab/contract.py": {
+      "bytes": 5269,
+      "sha256": "19177d8330a96b62ac41cb99e9353147fd9f53b4ec01dbf3d1d99a6af78beccd"
+    },
+    "unicode_lab/model.py": {
+      "bytes": 5122,
+      "sha256": "4aa05370426c21f90cb290228d7b21d609cd7f2456537df89901897c3e880620"
+    }
+  },
+  "repository_checks_scope": "Staged preparation snapshot before receipt tracking; final-history check is saved privately after the completion commit."
+}

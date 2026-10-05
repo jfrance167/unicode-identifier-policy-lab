@@ -1,0 +1,298 @@
+{
+  "unicode": "15.1.0",
+  "normalization": [
+    {
+      "line": 48,
+      "source": "0044 0307 0323;1E0C 0307;0044 0323 0307;1E0C 0307;0044 0323 0307; # (D◌̇◌̣; Ḍ◌̇; D◌̣◌̇; Ḍ◌̇; D◌̣◌̇; ) LATIN CAPITAL LETTER D, COMBINING DOT ABOVE, COMBINING DOT BELOW",
+      "columns": [
+        [
+          "0044",
+          "0307",
+          "0323"
+        ],
+        [
+          "1E0C",
+          "0307"
+        ],
+        [
+          "0044",
+          "0323",
+          "0307"
+        ],
+        [
+          "1E0C",
+          "0307"
+        ],
+        [
+          "0044",
+          "0323",
+          "0307"
+        ]
+      ]
+    },
+    {
+      "line": 93,
+      "source": "00C7;00C7;0043 0327;00C7;0043 0327; # (Ç; Ç; C◌̧; Ç; C◌̧; ) LATIN CAPITAL LETTER C WITH CEDILLA",
+      "columns": [
+        [
+          "00C7"
+        ],
+        [
+          "00C7"
+        ],
+        [
+          "0043",
+          "0327"
+        ],
+        [
+          "00C7"
+        ],
+        [
+          "0043",
+          "0327"
+        ]
+      ]
+    },
+    {
+      "line": 299,
+      "source": "01F0;01F0;006A 030C;01F0;006A 030C; # (ǰ; ǰ; j◌̌; ǰ; j◌̌; ) LATIN SMALL LETTER J WITH CARON",
+      "columns": [
+        [
+          "01F0"
+        ],
+        [
+          "01F0"
+        ],
+        [
+          "006A",
+          "030C"
+        ],
+        [
+          "01F0"
+        ],
+        [
+          "006A",
+          "030C"
+        ]
+      ]
+    },
+    {
+      "line": 1246,
+      "source": "212B;00C5;0041 030A;00C5;0041 030A; # (Å; Å; A◌̊; Å; A◌̊; ) ANGSTROM SIGN",
+      "columns": [
+        [
+          "212B"
+        ],
+        [
+          "00C5"
+        ],
+        [
+          "0041",
+          "030A"
+        ],
+        [
+          "00C5"
+        ],
+        [
+          "0041",
+          "030A"
+        ]
+      ]
+    },
+    {
+      "line": 14054,
+      "source": "FB00;FB00;FB00;0066 0066;0066 0066; # (ﬀ; ﬀ; ﬀ; ff; ff; ) LATIN SMALL LIGATURE FF",
+      "columns": [
+        [
+          "FB00"
+        ],
+        [
+          "FB00"
+        ],
+        [
+          "FB00"
+        ],
+        [
+          "0066",
+          "0066"
+        ],
+        [
+          "0066",
+          "0066"
+        ]
+      ]
+    },
+    {
+      "line": 14700,
+      "source": "FDFA;FDFA;FDFA;0635 0644 0649 0020 0627 0644 0644 0647 0020 0639 0644 064A 0647 0020 0648 0633 0644 0645;0635 0644 0649 0020 0627 0644 0644 0647 0020 0639 0644 064A 0647 0020 0648 0633 0644 0645; # (ﷺ; ﷺ; ﷺ; صلى الله عليه وسلم; صلى الله عليه وسلم; ) ARABIC LIGATURE SALLALLAHOU ALAYHE WASALLAM",
+      "columns": [
+        [
+          "FDFA"
+        ],
+        [
+          "FDFA"
+        ],
+        [
+          "FDFA"
+        ],
+        [
+          "0635",
+          "0644",
+          "0649",
+          "0020",
+          "0627",
+          "0644",
+          "0644",
+          "0647",
+          "0020",
+          "0639",
+          "0644",
+          "064A",
+          "0647",
+          "0020",
+          "0648",
+          "0633",
+          "0644",
+          "0645"
+        ],
+        [
+          "0635",
+          "0644",
+          "0649",
+          "0020",
+          "0627",
+          "0644",
+          "0644",
+          "0647",
+          "0020",
+          "0639",
+          "0644",
+          "064A",
+          "0647",
+          "0020",
+          "0648",
+          "0633",
+          "0644",
+          "0645"
+        ]
+      ]
+    },
+    {
+      "line": 14940,
+      "source": "FF21;FF21;FF21;0041;0041; # (Ａ; Ａ; Ａ; A; A; ) FULLWIDTH LATIN CAPITAL LETTER A",
+      "columns": [
+        [
+          "FF21"
+        ],
+        [
+          "FF21"
+        ],
+        [
+          "FF21"
+        ],
+        [
+          "0041"
+        ],
+        [
+          "0041"
+        ]
+      ]
+    }
+  ],
+  "folding": [
+    {
+      "line": 63,
+      "source": "0041; C; 0061; # LATIN CAPITAL LETTER A",
+      "input": "0041",
+      "expected": [
+        "0061"
+      ]
+    },
+    {
+      "line": 121,
+      "source": "00DF; F; 0073 0073; # LATIN SMALL LETTER SHARP S",
+      "input": "00DF",
+      "expected": [
+        "0073",
+        "0073"
+      ]
+    },
+    {
+      "line": 146,
+      "source": "0130; F; 0069 0307; # LATIN CAPITAL LETTER I WITH DOT ABOVE",
+      "input": "0130",
+      "expected": [
+        "0069",
+        "0307"
+      ]
+    },
+    {
+      "line": 247,
+      "source": "01F0; F; 006A 030C; # LATIN SMALL LETTER J WITH CARON",
+      "input": "01F0",
+      "expected": [
+        "006A",
+        "030C"
+      ]
+    },
+    {
+      "line": 326,
+      "source": "03A3; C; 03C3; # GREEK CAPITAL LETTER SIGMA",
+      "input": "03A3",
+      "expected": [
+        "03C3"
+      ]
+    },
+    {
+      "line": 336,
+      "source": "03C2; C; 03C3; # GREEK SMALL LETTER FINAL SIGMA",
+      "input": "03C2",
+      "expected": [
+        "03C3"
+      ]
+    },
+    {
+      "line": 1327,
+      "source": "FB00; F; 0066 0066; # LATIN SMALL LIGATURE FF",
+      "input": "FB00",
+      "expected": [
+        "0066",
+        "0066"
+      ]
+    }
+  ],
+  "mixed_group": {
+    "values": [
+      "0041",
+      "0041",
+      "FF21"
+    ],
+    "nfkc_stages": [
+      [
+        "0041",
+        "0061",
+        "0061"
+      ],
+      [
+        "0041",
+        "0061",
+        "0061"
+      ],
+      [
+        "0041",
+        "0061",
+        "0061"
+      ]
+    ],
+    "duplicates": [
+      0,
+      1
+    ],
+    "collision_members": [
+      0,
+      1,
+      2
+    ],
+    "distinct_original_count": 2
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "fixtures/oracles.json": {
+    "bytes": 5500,
+    "sha256": "c0e2fa084011a735b4ce52f7def36f07f209ad1565f189e7778110d553dffd99"
+  },
+  "fixtures/unicode-excerpts.txt": {
+    "bytes": 1504,
+    "sha256": "803b9ee58b7605cadb04c4a97581c19b15b5f86872789f1152f2a7ee1765ac65"
+  },
+  "LICENSES/UNICODE.txt": {
+    "bytes": 2033,
+    "sha256": "fe5c62b543e287981db198f2acfa0ca732d12591a1024536dc8fd85dacd77104"
+  }
+}

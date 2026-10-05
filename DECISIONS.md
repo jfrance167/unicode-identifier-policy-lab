@@ -1,0 +1,9 @@
+# Decisions
+
+- Build an original stdlib equality/collision teaching model. Maintained unicodedata2 adds a compiled newer database without replacing built-in casefold; confusable detection answers a separate question and its successor assessment is incomplete. RESEARCH.md records evidence rather than asserting dependency safety.
+- Pin an explicit CPython 3.13/UCD 15.1 contract and record the actual patch. This trades latest Unicode coverage for a coherent installed normalization/folding data basis and reproducible independent vectors. Only 3.13.7/Windows was executed locally.
+- Preserve original and every intermediate scalar sequence. No trimming, accent/format/default-ignorable deletion or locale tailoring. NFKC -> default full fold -> NFKC is a named lab policy, not official identifier conformance.
+- Model grouping only after complete validation and bounded transformations. Exact duplicates may overlap an induced group, but repeated identical originals alone do not create a distinct-original collision. Preserve every input index/label and first-occurrence group order.
+- Exact finite schema rejects cycles/custom types without a generic recursive object walker. Raw JSON preflight bounds parser depth; the JSON decoder owns grammar and duplicate/numeric hooks reject ambiguity/coercion.
+- ASCII evidence and fixed diagnostics avoid raw control effects; output is reversible synthetic data. Exclusive file output and real pipe checks support delivery contracts without pretending stdout is atomic or metadata checks defeat malicious races.
+- Frozen fixture commit f7c607a precedes model implementation. Source-data column/mapping expectations, manual mixed-group semantics and independent last-stage recomposition distinguish meaningful mutants. Full candidate snapshots stay private; licensed excerpts ship with explicit provenance.
