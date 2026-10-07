@@ -1,3 +1,9 @@
 * text=auto eol=lf
 *.txt text eol=lf
 *.json text eol=lf
+
+# Preserve reviewed snapshot bytes across checkout platforms.
+/.github/dependabot.yml -text
+/.gitignore -text
+/PUBLICATION.md -text
+/README.md -text
